@@ -9,10 +9,51 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    .about {
+        &__content {
+            flex-direction: column;
+            align-items: center;
+
+            &-column {
+                width: 100%;
+            }
+
+            &-descr {
+                padding-right: 0;
+            }
+
+            &-list {
+                gap: 10px;
+            }
+
+
+
+        }
+
+
+    }
+}
 
 @media (max-width: 576px) {
     .navigation {
         display: none;
     }
+
+    .about {
+        &__content {
+            &-list {
+                margin-top: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            &-item {
+                margin-top: 0;
+            }
+
+
+        }
+    }
+
 }
