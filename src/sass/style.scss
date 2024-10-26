@@ -34,9 +34,12 @@ img {
 @import 'blocks/button';
 
 @import 'pages/promo';
-@import 'pages/story';
-@import 'pages/capabilities';
-@import 'pages/build';
+@import 'pages/about';
+@import 'pages/services';
+@import 'pages/work';
 @import 'pages/nevsletter';
 @import 'pages/contacts';
 @import 'pages/footer';
+
+@import 'base/media';
+@import 'base/variable';
