@@ -1,0 +1,33 @@
+.promo {
+    position: relative;
+    height: 100vh;
+    background: url('../images/promo/bg.png') center (center/cover) no-repeat;
+    padding: 41px 0 71px 0;
+
+    &__logo {
+        text-align: center;
+    }
+
+    &_title {
+        margin-top: 315px;
+    }
+
+    &_subtitle {
+        font-weight: 600;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+    }
+
+    &_link {
+        display: block;
+        position: absolute;
+        bottom: 71px;
+        left: 50%;
+        transform: translateX(-50%);
+        font-weight: 600;
+        font-size: 11px;
+        letter-spacing: 0.34em;
+        color: #fff;
+    }
+}
