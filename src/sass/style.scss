@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+@import 'blocks/divider';
+@import 'blocks/header';
+@import 'blocks/navigation';
+@import 'blocks/title';
+
+@import 'pages/promo';
+@import 'pages/story';
+@import 'pages/capabilities';
+@import 'pages/build';
+@import 'pages/nevsletter';
+@import 'pages/contacts';
+@import 'pages/footer';
