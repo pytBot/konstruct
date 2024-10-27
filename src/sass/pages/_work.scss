@@ -1,0 +1,18 @@
+.work {
+    padding: 120px 0 231px 0;
+    background: url('../images/work/bg.png') center (center/ cover) no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: center;
+
+    &_title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        color: #48555b;
+    }
+
+
+}

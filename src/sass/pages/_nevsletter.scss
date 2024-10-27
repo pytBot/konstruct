@@ -1,0 +1,32 @@
+.nevsletter {
+    min-height: 100px;
+    background-color: #171819;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    &_title {
+        font-weight: 700;
+        font-size: 22px;
+        letter-spacing: 0.04em;
+        color: #fff;
+        margin-right: 70px;
+    }
+
+    &_input {
+        width: 250px;
+        padding: 10px 16px;
+        border: 1px solid #979797;
+        border-right: none;
+
+
+    }
+
+    &__form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
