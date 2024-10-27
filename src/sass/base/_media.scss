@@ -7,6 +7,12 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .services {
+        &__blocks {
+            gap: 10px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -33,6 +39,34 @@
 
 
     }
+
+    .services {
+        &__row {
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+        }
+
+        &__title {
+            width: 100%;
+
+            &-title {
+                text-align: center;
+            }
+
+            .divider {
+                margin-right: auto;
+                margin-left: auto;
+            }
+        }
+
+        &__button,
+        &__info {
+            width: 100%;
+            text-align: center;
+        }
+    }
 }
 
 @media (max-width: 576px) {
@@ -41,11 +75,12 @@
     }
 
     .about {
+
         &__content {
             &-list {
                 margin-top: 30px;
-                flex-wrap: wrap;
-                justify-content: center;
+                flex-direction: column;
+                align-items: center;
             }
 
             &-item {
@@ -53,6 +88,15 @@
             }
 
 
+        }
+    }
+
+    .services {
+
+
+        &__blocks {
+            flex-direction: column;
+            align-items: center;
         }
     }
 
